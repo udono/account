@@ -21,7 +21,7 @@ that make them up, can be found by:
 .. tip::
 
     Account moves that are created by, or relate to, other documents or items
-    on you Tryton system can also often be found from those documents or items.
+    on your Tryton system can also often be found from those documents or items.
 
 .. _journal entries: https://en.wikipedia.org/wiki/Journal_entry
 
