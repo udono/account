@@ -121,8 +121,9 @@ In Tryton a *Reconciliation* groups together some
 `Account Move Lines <model-account.move.line>` whose total debits and credits
 balance.
 These account move lines must all have the same
-`Account <model-account.account>` and `Party <model-party.party>` and must
-not already be part of another *Reconciliation*.
+`Account <model-account.account>` configured with the activated *Reconcile* option and
+`Party <model-party.party>` when configured with the activated *Party Required* option
+and must not already be part of another *Reconciliation*.
 
 Each *Reconciliation* stores information about the reconciliation and when it
 happened.
