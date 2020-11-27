@@ -78,6 +78,7 @@ Tryton will only use Standard periods when creating new
 Adjustment periods are typically used for things like the
 accounting moves created when `Closing a fiscal year`, and these periods may
 overlap other periods.
+Often these periods are at the last day of the fiscal year.
 
 .. seealso::
 
