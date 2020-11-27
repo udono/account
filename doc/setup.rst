@@ -13,9 +13,9 @@ create your `Company's <company:model-company.company>` accounts structure
 from a template.
 It is normally a good idea to do this at this point, if you can.
 
-This will use the `Templates <concept-account.template>` from your selected
-:guilabel:`Account Template` and create things like a Chart of
-`Accounts <model-account.account>`,
+This will use the root `Template <concept-account.template>` from your selected
+:guilabel:`Account Templates` and populates things like a `Chart of
+Accounts <model-account.account>`,
 the `Account Types <model-account.account.type>` used to generate the
 balance sheet and income statements, and appropriate
 `Taxes <model-account.tax>`, `Tax Codes <model-account.tax.code>`, and
@@ -48,8 +48,9 @@ main menu item.
    its name.
 
    It is not essential that a fiscal year and calendar year align, in fact a
-   fiscal year may be longer or shorter than a calendar year, depending on
-   your country's legal requirements and financial reporting standards.
+   fiscal year may be longer or shorter than a calendar year, or starting in 
+   the middle of a calendar year depending on your country's legal requirements
+   and financial reporting standards.
 
 Once you have filled in the required information the
 `Create Periods <wizard-account.fiscalyear.create_periods>` wizard allows you
